@@ -1,0 +1,1 @@
+GET https://store-groceries.p.rapidapi.com
