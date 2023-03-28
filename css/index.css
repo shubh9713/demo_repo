@@ -1,0 +1,149 @@
+#bankOffer {
+    width: 80%;
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+  }
+
+  #bankOffer > div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+
+
+  #bankOffer > div > img{
+    width: 90%;
+  }
+
+  .bottom_carousel_right_section{
+    display: flex;
+    border: solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+  .bottom_carousel_right_section > div > img{
+    display: flex;
+    border: solid red;
+  }
+
+  h2{
+   text-align: center;
+  }
+ #Most_Popular{
+    width: 80%;
+    display: flex;
+    border: solid red;
+    /* justify-content: space-between; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #Most_Popular > div > img{
+    width: 90%;
+ }
+
+ #Most_Popular > div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+ #top_offers{
+    width: 80%;
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #top_offers > div > img{
+    width: 90%;
+ }
+
+ #top_offers > div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+  
+ #Fruits_vegies{
+    width: 80%;
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #Fruits_vegies > div > img{
+    width: 90%;
+ }
+
+ #Fruits_vegies > div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+
+ #Daily_Staples{
+    width: 80%;
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #Daily_Staples > div > img{
+    width: 90%;
+ }
+
+ #Daily_Staples> div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+
+ #BrandStore{
+    width: 80%;
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+
+ #BrandStore > div > img{
+   width: 90%;
+ }
+
+ 
+ #BrandStore> div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }
+
+
+
+ #Beauty_Hygiene{
+    width: 80%;
+    display: flex;
+    border: solid red;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ #Beauty_Hygiene > div > img{
+    width: 90%;
+  }
+
+
+  #Beauty_Hygiene> div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+ }

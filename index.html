@@ -1,1 +1,495 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- Bank Offer -->
+
+    <h2>Bank Offer</h2>
+    <div id="bankOffer">
+        <div>
+            <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4ea30d34-2092-4c11-9759-4f8c6fe09c6a/t1_hp_aff_m_simple-all_360_250323.jpg" alt="error">
+        </div>
+        <div>
+            <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4ea30d34-2092-4c11-9759-4f8c6fe09c6a/t1_hp_aff_m_mobikwik_360_250323.jpg" alt="error">
+        </div>
+        <div>
+            <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4ea30d34-2092-4c11-9759-4f8c6fe09c6a/t1_hp_aff_m_paytm_360_250323.jpg" alt="error">
+        </div>
+        <div>
+            <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4ea30d34-2092-4c11-9759-4f8c6fe09c6a/t1_hp_aff_m_freecharge_360_250323.jpg" alt="error">
+        </div>
+    </div>
+
+    <!-- Best Seller -->
+
+    <h2>Best Seller</h2>
+    <h1 class="smart">My Smart Basket</h1>
+    <hr>
+   <div class="bottom_carousel_right_section">
+     <span class="bottom_carousel_prev_button"><span
+                   class=" material-symbols-outlined">arrow_back_ios</span></span>
+     <div class="bottom_carousel_display_container">
+            <div class="bottom_carousel_cards_track">
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/10000150_19-fresho-onion.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                Onion(Loose)</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                             <select name="" id="">
+                               <option value="">2kg - Rs 120</option>
+                               <option value="">5kg - Rs 250</option>
+                               <option value="">10kg - Rs 700</option>
+                             </select>
+                          <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                          <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                           <div class="col-sm-5 col-xs-4 pad-0">
+                             <div class="input-group" qa="qty">
+                               <span class="input-group-addon">Qty</span> 
+                               <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                             </div>
+                             <div class="col-sm-5 col-xs-5 pad-0">
+                               <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                               </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$490.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/40072320_2-fresho-farm-eggs-table-tray-medium-antibiotic-residue-free.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                 EGG-white(Loose)</span>
+                          <span><img src="./resources/5-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2 Packet - Rs 120</option>
+                           <option value="">5 Packet- Rs 250</option>
+                           <option value="">10 Packet - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$590.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/10000071_14-fresho-carrot-orange.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                           Carrot-Orange(Loose)</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2kg - Rs 120</option>
+                           <option value="">5kg - Rs 250</option>
+                           <option value="">10kg - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$240.99</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/10000404_18-bb-royal-rice-raw-sona-masoori-12-17-months-old.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                 Rice-vasmati(Loose)</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2kg - Rs 120</option>
+                           <option value="">5kg - Rs 250</option>
+                           <option value="">10kg - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$190.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/10000201_15-fresho-tomato-hybrid.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                 Tomato(red)</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2kg - Rs 120</option>
+                           <option value="">5kg - Rs 250</option>
+                           <option value="">10kg - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$490.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/40191534_1-borges-extra-virgin-olive-oil.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                 Quality Chain QV729 15lb Truck and SUV Cable Tire Snow...</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2kg - Rs 120</option>
+                           <option value="">5kg - Rs 250</option>
+                           <option value="">10kg - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$190.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/40192104_9-fresho-frozen-green-peas.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                 NOCO Genius 1000 Amp Lithium Portable Jump Starter</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2kg - Rs 120</option>
+                           <option value="">5kg - Rs 250</option>
+                           <option value="">10kg - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$190.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                          <!-- image -->
+                          <div>
+                                 <img src="https://www.bigbasket.com/media/uploads/p/s/20005940_11-bb-royal-sona-masoori-rice-raw-rice-super-premium-12-months-old.jpg"
+                                        alt="">
+                          </div>
+                          <!-- title -->
+                          <span>
+                                 Permatex Ultra Black RTV Silicone Maximum Oil...</span>
+                          <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                          <select name="" id="">
+                           <option value="">2kg - Rs 120</option>
+                           <option value="">5kg - Rs 250</option>
+                           <option value="">10kg - Rs 700</option>
+                         </select>
+                      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                       <div class="col-sm-5 col-xs-4 pad-0">
+                         <div class="input-group" qa="qty">
+                           <span class="input-group-addon">Qty</span> 
+                           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                         </div>
+                         <div class="col-sm-5 col-xs-5 pad-0">
+                           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                           </button></div><!-- ngIf: false --></div>
+                          <!-- <span>$490.00</span> -->
+                   </div>
+                   <div class="bottom_carousel_card">
+                     <!-- image -->
+                     <div>
+                            <img src="https://www.bigbasket.com/media/uploads/p/s/40129678_8-pampers-diaper-pants-extra-large.jpg"
+                                   alt="">
+                     </div>
+                     <!-- title -->
+                     <span>
+                            Permatex Ultra Black RTV Silicone Maximum Oil...</span>
+                     <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+                     <select name="" id="">
+                       <option value="">2kg - Rs 120</option>
+                       <option value="">5kg - Rs 250</option>
+                       <option value="">10kg - Rs 700</option>
+                     </select>
+                  <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+                  <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+                   <div class="col-sm-5 col-xs-4 pad-0">
+                     <div class="input-group" qa="qty">
+                       <span class="input-group-addon">Qty</span> 
+                       <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+                     </div>
+                     <div class="col-sm-5 col-xs-5 pad-0">
+                       <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                       </button></div><!-- ngIf: false --></div>
+                     <!-- <span>$490.00</span> -->
+              </div>
+              <div class="bottom_carousel_card">
+               <!-- image -->
+               <div>
+                      <img src="https://www.bigbasket.com/media/uploads/p/s/10000142_16-fresho-ladies-finger.jpg"
+                             alt="">
+               </div>
+               <!-- title -->
+               <span>
+                      Permatex Ultra Black RTV Silicone Maximum Oil...</span>
+               <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+               <select name="" id="">
+                 <option value="">2kg - Rs 120</option>
+                 <option value="">5kg - Rs 250</option>
+                 <option value="">10kg - Rs 700</option>
+               </select>
+            <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+            <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+             <div class="col-sm-5 col-xs-4 pad-0">
+               <div class="input-group" qa="qty">
+                 <span class="input-group-addon">Qty</span> 
+                 <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+               </div>
+               <div class="col-sm-5 col-xs-5 pad-0">
+                 <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+                 </button></div><!-- ngIf: false --></div>
+               <!-- <span>$490.00</span> -->
+        </div>
+        <div class="bottom_carousel_card">
+         <!-- image -->
+         <div>
+                <img src="https://www.bigbasket.com/media/uploads/p/s/40089742_2-fresho-beans-haricot.jpg"
+                       alt="">
+         </div>
+         <!-- title -->
+         <span>
+                Permatex Ultra Black RTV Silicone Maximum Oil...</span>
+         <span><img src="./resources/4-stars.png" alt="">(100+)</span>
+         <select name="" id="">
+           <option value="">2kg - Rs 120</option>
+           <option value="">5kg - Rs 250</option>
+           <option value="">10kg - Rs 700</option>
+         </select>
+      <p class="time">Standard Delivery: Today 8:00AM - 10:00AM</p>
+      <div class="col-xs-12 bskt-opt ng-scope" ng-if=" vm.selectedProduct.available" ng-hide="vm.selectedQuantity > 0 || vm.selectedProduct.zero_results_listing==true">
+       <div class="col-sm-5 col-xs-4 pad-0">
+         <div class="input-group" qa="qty">
+           <span class="input-group-addon">Qty</span> 
+           <input ng-model="vm.startQuantity" type="text" class="form-control ng-pristine ng-valid ng-not-empty ng-valid-maxlength ng-touched" maxlength="5" ></div>
+         </div>
+         <div class="col-sm-5 col-xs-5 pad-0">
+           <button qa="add" type="button" class="btn btn-add col-xs-9" ng-click="vm.addToBasket(vm.selectedProduct);">Add <span class="bskt-icon"></span>
+           </button></div><!-- ngIf: false --></div>
+         <!-- <span>$490.00</span> -->
+  </div>
+            </div>
+     </div>
+     <span class="bottom_carousel_next_button"> <span
+                   class=" material-symbols-outlined">arrow_forward_ios</span></span>
+</div>
+
+
+
+<!-- Most POpular -->
+<div style=" width: 80%; border: solid red; justify-content: space-around; ">
+  <h2 style="font-size: 24px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(68, 68, 68); font-weight: 400;">Most Popular</h2>
+</div>
+
+
+<!-- color: rgb(68, 68, 68);
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-align: center; -->
+
+<div id="Most_Popular">
+    <div>
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/ee20c95c-230b-49a6-9386-63590af643b6/hp_fnv-mangoes_m_480_250323_01.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/ee20c95c-230b-49a6-9386-63590af643b6/hp_summer-bottles_m_480_250323_02.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/ee20c95c-230b-49a6-9386-63590af643b6/hp_sunscreens_m_480_250323_03.jpg" alt="error">
+    </div>
+    <div>
+        <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/ee20c95c-230b-49a6-9386-63590af643b6/hp_summer-deos_m_480_250323_04_.jpg" alt="error">
+    </div>
+</div>
+
+
+<!-- top offers starts from hear -->
+
+<h2>Top Offer</h2>
+<div id="top_offers">
+  <div>
+     <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/e8c51ca5-7a61-4b28-97a5-eacb8a8e3582/hp_dow-topoffersStorefront_m_480_250323_01.jpg" alt="error">
+  </div>
+  <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/e8c51ca5-7a61-4b28-97a5-eacb8a8e3582/hp_big-packs-topoffersStorefront_m_480_250323_02.jpg" alt="error">
+  </div>
+  <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/e8c51ca5-7a61-4b28-97a5-eacb8a8e3582/hp_combos-topoffersStorefront_m_480_250323_03.jpg" alt="error">
+  </div>
+  <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/e8c51ca5-7a61-4b28-97a5-eacb8a8e3582/hp_30-corner-topoffersStorefront_m_480_250323_04.jpg" alt="error">
+  </div>
+</div>
+
+<!-- Fruits and vegetables -->
+
+<h2>Fruits and Vegies</h2>
+<div id="Fruits_vegies">
+   <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/eceafe85-3773-4a8b-b335-cb2bfbec01ce/hp_organic-fnc-fnv_Storefront_m_250323_01.jpg" alt="">
+   </div>
+   <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/eceafe85-3773-4a8b-b335-cb2bfbec01ce/hp_fresh-fruits-fnv_Storefront_m_250323_02.jpg" alt="">
+   </div>
+   <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/eceafe85-3773-4a8b-b335-cb2bfbec01ce/hp_fresh-vegetables-fnv_Storefront_m_250323_03.jpg" alt="">
+   </div>
+   <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/eceafe85-3773-4a8b-b335-cb2bfbec01ce/hp_cuts-sprouts-fnv_Storefront_m_250323_04.jpg" alt="">
+   </div>
+   <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/eceafe85-3773-4a8b-b335-cb2bfbec01ce/hp_exotic-fruits-fnv_Storefront_m_250323_05.jpg" alt="">
+   </div>
+   <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/eceafe85-3773-4a8b-b335-cb2bfbec01ce/hp_herbs-seasonings-fnv_Storefront_m_250323_06.jpg" alt="">
+   </div>
+</div>
+
+<!-- Daily stapels starts from Here -->
+
+    <h2>Daily Stapels</h2>
+   <div id="Daily_Staples">
+    <div>
+    <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_atta-flour-staplesStorefront_m_480_250323_01.jpg" alt="error">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_rice-staplesStorefront_m_480_250323_02.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_dals-pulses-staplesStorefront_m_480_250323_03.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_cooking-oils-staplesStorefront_m_480_250323_04.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/4070b03c-7096-446a-b583-fe54b5b9c5a7/hp_salt-staplesStorefront_m_480_250323_06.jpg" alt="">
+    </div>
+   </div>
+
+
+
+<!-- Beauty  and hygiene starts from hear -->
+
+<h2>Beauty hygiene</h2>
+<div id="Beauty_Hygiene">
+<div>
+  <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/0b6b3238-9b25-428d-bfbe-fa0a2e6defed/hp_beauty-makeup-carnival_m_250323_01.jpg" alt="">
+</div>
+<div>
+  <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/0b6b3238-9b25-428d-bfbe-fa0a2e6defed/hp_beauty-sunsreens_m_250323_02.jpg" alt="">
+</div>
+<div>
+  <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/0b6b3238-9b25-428d-bfbe-fa0a2e6defed/hp_beauty-scentful-deos_m_250323_03.jpg" alt="">
+</div>
+<div>
+  <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/0b6b3238-9b25-428d-bfbe-fa0a2e6defed/hp_beauty-shaving-saviouurs_m_250323_04.jpg" alt="">
+</div>
+<div>
+  <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/0b6b3238-9b25-428d-bfbe-fa0a2e6defed/hp_beauty-min35off_m_250323_05.jpg" alt="">
+</div>
+<div>
+  <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/0b6b3238-9b25-428d-bfbe-fa0a2e6defed/hp_beauty-under199_m_250323_06.jpg" alt="">
+</div>
+</div>
+
+<!-- Brand Store -->
+ <h2>Brand Store</h2>
+<div id="BrandStore">
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/71368a71-c258-4cb9-a8aa-fdcfccae7e9b/amul-hp_brandStorefront_m_480_250323_01.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/71368a71-c258-4cb9-a8aa-fdcfccae7e9b/dettol-hp_brandStorefront_m_480_250323_02.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/71368a71-c258-4cb9-a8aa-fdcfccae7e9b/coca-cola-hp_brandStorefront_m_480_250323_03.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/71368a71-c258-4cb9-a8aa-fdcfccae7e9b/loreal-hp_brandStorefront_m_480_250323_04.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/71368a71-c258-4cb9-a8aa-fdcfccae7e9b/indai-gate-hp_brandStorefront_m_480_250323_05.jpg" alt="">
+    </div>
+    <div>
+      <img src="https://www.bigbasket.com/media/customPage/b01eee88-e6bc-410e-993c-dedd012cf04b/6cf6d3c9-a568-4a3c-8ec2-6476ddcebad1/71368a71-c258-4cb9-a8aa-fdcfccae7e9b/durex-hp_brandStorefront_m_480_250323_06.jpg" alt="">
+    </div>
+</div>
+
+</body>
+</html>
